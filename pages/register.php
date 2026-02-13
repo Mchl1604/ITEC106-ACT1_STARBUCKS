@@ -8,8 +8,8 @@
   <?php include("../includes/cssBootstrap.php"); ?>
   <style>
     body{
-       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-       background-color: #f5f0ea;
+      font-family: Helvetica, Arial, sans-serif;
+       background-color: #00754A;
     }
 
     h1 {
@@ -47,37 +47,41 @@
 </head>
 
 <body>
-  <?php include("../includes/loginheader.php") ?>
-  <div class="d-flex justify-content-center mt-5">
-    <h1>Register</h1>
-  </div>
 
-  <div class="d-flex justify-content-center mt-2">
-    <div class="card col-md-4 px-4 py-5 shadow bg-body-tertiary rounded">
+  <form action="login.php">
+
+ 
+  <div class="d-flex justify-content-center mt-5">
+    <div class="card col-md-4 px-4 py-4 shadow bg-body-tertiary rounded">
+      <div class="d-flex justify-content-center mb-3">
+      <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
+      </div>
+      <h1 class="text-center">Create an Account</h1>
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="floatingInput" placeholder="name">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
         <label for="floatingInput">Username</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
         <label for="floatingInput">Email Address</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Password</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Confirm Password</label>
       </div>
       <div class="d-flex justify-content-end">
-        <a href="login.php" class="btn">Finish</a>
+        <button type="submit" class="btn">Finish</button>
 
       </div>
 
     </div>
 
   </div>
+   </form>
   <?php include("../includes/jsBootstrap.php"); ?>
 </body>
 

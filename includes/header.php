@@ -1,6 +1,6 @@
 <style>
   .header-nav{
-     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+     font-family: Helvetica, Arial, sans-serif;
     color: #000000;
   }
   .sign-out{
@@ -15,11 +15,11 @@
     background-color: #ffffff;
     border: none;
     color: #000000;
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 </style>
-<nav class="navbar navbar-expand-lg bg-white py-2">
+<nav class="navbar navbar-expand-lg bg-white">
   <div class="container-fluid">
     <a class="navbar-brand ps-4" href="home.php"><img src="../img/logo.png" alt="company-logo" style="width: 45px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
     </li>
   </ul>
 
-  <ul class="navbar-nav ms-auto ">
+  <ul class="navbar-nav ms-auto">
     <li class="nav-item mx-lg-3">
       <a class="nav-link fw-bold header-nav sign-out" href="../pages/login.php">Log out</a>
     </li>

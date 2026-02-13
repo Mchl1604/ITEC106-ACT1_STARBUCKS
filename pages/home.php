@@ -8,7 +8,7 @@
   <?php include("../includes/cssBootstrap.php"); ?>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
     }
 
     .banner {
@@ -91,12 +91,14 @@
         </p>
       </div>
     </div>
-
-
   </div>
 
+  
 
-  <?php include("../includes/jsBootstrap.php"); ?>
+  <?php 
+  include("../includes/footer.php"); 
+  include("../includes/jsBootstrap.php"); 
+  ?>
 </body>
 
 </html>

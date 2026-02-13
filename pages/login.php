@@ -8,8 +8,8 @@
   <?php include("../includes/cssBootstrap.php"); ?>
   <style>
     body{
-       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-       background-color: #f5f0ea;
+       font-family: Helvetica, Arial, sans-serif;
+       background-color:  #00754A;
     }
 
     h1 {
@@ -43,20 +43,25 @@
     .form-control:focus + label{ 
       color: #00754A;
     }
+    .form-check-label{
+      
+    }
   </style>
 </head>
 
 <body>
-  <?php include("../includes/loginheader.php")?>
-  <div class="d-flex justify-content-center mt-5">
-    <h1>Log in</h1>
-  </div>
 
-  <div class="d-flex justify-content-center mt-2">
+  <form action="home.php">
+  <div class="d-flex justify-content-center mt-5">
     <div class="card col-md-4 px-4 py-5 shadow bg-body-tertiary rounded">
+      <div class="d-flex justify-content-center mb-3">
+      <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
+      </div>
+      <h1 class="text-center">Log in</h1>
+      
       <div class="form-floating mb-3">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Username or Email Address</label>
+        <label for="floatingInput">Email Address</label>
       </div>
       <div class="form-floating mb-3">
         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -66,16 +71,16 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
   </div>
-  <a href="" class=" mb-1">Forgot Password?</a>
   <p>Does not have an account? <a href="register.php">Sign up</a></p>
   <div class="d-flex justify-content-end">
-    <a href="home.php" class="btn">Log in</a>
+    <button type="submit" class="btn">Log in</button>
     
   </div>
   
     </div>
     
   </div>
+  </form>
   
   <?php include("../includes/jsBootstrap.php"); ?>
 </body>
