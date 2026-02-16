@@ -9,7 +9,7 @@
   <style>
     body{
        font-family: Helvetica, Arial, sans-serif;
-       background-color:  #00754A;
+       background-color:#00754A;
     }
 
     h1 {
@@ -49,8 +49,8 @@
 <body>
 
   
-  <div class="d-flex justify-content-center mt-5">
-    <div class="card col-md-4 px-4 py-5 shadow bg-body-tertiary rounded">
+  <div class="d-flex justify-content-center mt-5 mx-5">
+    <div class="card col-md-4 px-4 py-4 mt-4 shadow ">
       <div class="d-flex justify-content-center mb-3">
       <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
       </div>
