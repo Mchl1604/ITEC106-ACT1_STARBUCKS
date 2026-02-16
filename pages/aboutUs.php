@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
   <?php include("../includes/cssBootstrap.php"); ?>
+  
 </head>
 
-<body style="font-family: Helvetica, Arial, sans-serif;">
+<body style="font-family: Helvetica, Arial, sans-serif; background-color: #C1E1C1;">
   <?php include("../includes/header.php") ?>
   <hr class="p-0 m-0">
   <div class=" container-fluid col-md-7 d-flex flex-column justify-content-center mt-4">

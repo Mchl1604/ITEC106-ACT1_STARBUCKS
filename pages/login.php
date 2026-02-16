@@ -43,29 +43,33 @@
     .form-control:focus + label{ 
       color: #00754A;
     }
-    .form-check-label{
-      
-    }
   </style>
 </head>
 
 <body>
 
-  <form action="home.php">
+  
   <div class="d-flex justify-content-center mt-5">
     <div class="card col-md-4 px-4 py-5 shadow bg-body-tertiary rounded">
       <div class="d-flex justify-content-center mb-3">
       <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
       </div>
       <h1 class="text-center">Log in</h1>
-      
+
+      <form action="home.php" class="needs-validation" novalidate>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
         <label for="floatingInput">Email Address</label>
+        <div class="invalid-feedback">
+        Invalid Username.
+      </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Password</label>
+        <div class="invalid-feedback">
+        Invalid Password.
+      </div>
       </div>
        <div class="mb-2 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -76,13 +80,34 @@
     <button type="submit" class="btn">Log in</button>
     
   </div>
+    </form>
   
     </div>
     
   </div>
-  </form>
+
   
   <?php include("../includes/jsBootstrap.php"); ?>
+  <script>
+    (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+  </script>
 </body>
 
 </html>

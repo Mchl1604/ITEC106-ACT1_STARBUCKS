@@ -48,41 +48,73 @@
 
 <body>
 
-  <form action="login.php">
 
  
   <div class="d-flex justify-content-center mt-5">
-    <div class="card col-md-4 px-4 py-4 shadow bg-body-tertiary rounded">
+    <div class="card col-md-4 px-4 py-4 shadow-p">
       <div class="d-flex justify-content-center mb-3">
       <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
       </div>
       <h1 class="text-center">Create an Account</h1>
+      <form action="login.php" class="needs-validation" novalidate>
       <div class="form-floating mb-3">
         <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
         <label for="floatingInput">Username</label>
+        <div class="invalid-feedback">
+        Please input a username.
+      </div>
       </div>
       <div class="form-floating mb-3">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
         <label for="floatingInput">Email Address</label>
+        <div class="invalid-feedback">
+        Invalid Email Address.
+      </div>
       </div>
       <div class="form-floating mb-3">
         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Password</label>
+        <div class="invalid-feedback">
+        Please input a secure password.
+      </div>
       </div>
       <div class="form-floating mb-3">
         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Confirm Password</label>
+        <div class="invalid-feedback">
+        Please input a secure password.
+      </div>
       </div>
       <div class="d-flex justify-content-end">
         <button type="submit" class="btn">Finish</button>
 
       </div>
+      </form>
 
     </div>
 
   </div>
-   </form>
   <?php include("../includes/jsBootstrap.php"); ?>
+  <script>
+    (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+  </script>
 </body>
 
 </html>

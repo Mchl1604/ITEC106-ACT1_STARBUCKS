@@ -3,23 +3,21 @@
      font-family: Helvetica, Arial, sans-serif;
     color: #000000;
   }
-  .sign-out{
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 12px;
+  .profile{
     color: #ffffff;
-    background-color: #000000;
+    background-color: #00754A;
+  }
+  .profile:hover, .profile.show{
+    color: #ffffff;
+    background-color: #00754A;
   }
 @media screen and (max-width: 992px) {
-  .sign-out{
-    background-color: #ffffff;
-    border: none;
-    color: #000000;
-    font-size: 17px;
+  .profile{
+  
   }
 }
 </style>
-<nav class="navbar navbar-expand-lg bg-white">
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand ps-4" href="home.php"><img src="../img/logo.png" alt="company-logo" style="width: 45px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,11 +38,14 @@
     </li>
   </ul>
 
-  <ul class="navbar-nav ms-auto">
-    <li class="nav-item mx-lg-3">
-      <a class="nav-link fw-bold header-nav sign-out" href="../pages/login.php">Log out</a>
-    </li>
+  <div class="dropdown navbar-nav ms-auto">
+  <button class="btn dropdown-toggle profile" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Michael
+  </button>
+  <ul class="dropdown-menu ">
+    <li><a class="dropdown-item" href="../pages/login.php">Log Out</a></li>
   </ul>
+</div>
 
 </div>
 
