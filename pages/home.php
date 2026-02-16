@@ -29,7 +29,7 @@
 
     <div class="row mb-4 g-0">
       <div class="col-lg-6">
-        <img src="../img/1.webp" alt="" class="img-fluid w-100">
+        <img src="../img/1.webp" alt="valentines day promo pic" class="img-fluid w-100">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" style="min-height: 300px; background-color: #f5f0ea;">
         <h4 class="fw-bold mb-4" style="color:#006242; ">New ways to celebrate Valentine’s</h4>
@@ -49,14 +49,14 @@
         </p>
       </div>
       <div class="col-lg-6">
-        <img src="../img/2.webp" alt="" class="img-fluid ">
+        <img src="../img/2.webp" alt="baked pastry products" class="img-fluid ">
       </div>
     </div>
 
 
     <div class="row mb-4 g-0">
       <div class="col-lg-6">
-        <img src="../img/3.webp" alt="" class="img-fluid w-100">
+        <img src="../img/3.webp" alt="1971 roast coffee" class="img-fluid w-100">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" style="min-height: 300px; background-color: #006241;">
         <h4 class="fw-bold mb-4" style="color:#ffffff; ">Meet Starbucks 1971 Roast™</h4>
@@ -75,14 +75,14 @@
         </p>
       </div>
       <div class="col-lg-6">
-        <img src="../img/4.webp" alt="" class="img-fluid ">
+        <img src="../img/4.webp" alt="new matcha menu" class="img-fluid ">
       </div>
     </div>
 
 
     <div class="row mb-4 g-0">
       <div class="col-lg-6">
-        <img src="../img/5.jpg" alt="" class="img-fluid w-100">
+        <img src="../img/5.jpg" alt="Starbucks Reward" class="img-fluid w-100">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" style="min-height: 300px; background-color: #F5F1EB;">
         <h4 class="fw-bold mb-4" style="color:#006242; ">Starbucks® Rewards is leveling up in March</h4>

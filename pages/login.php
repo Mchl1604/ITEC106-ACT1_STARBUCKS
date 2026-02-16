@@ -8,8 +8,13 @@
   <?php include("../includes/cssBootstrap.php"); ?>
   <style>
     body{
-       font-family: Helvetica, Arial, sans-serif;
-       background-color:#00754A;
+      font-family: Helvetica, Arial, sans-serif;
+       background-image: url(../img/bg.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       min-height: 100vh;
+       margin: 0;
     }
 
     h1 {
@@ -17,9 +22,11 @@
       font-weight: bold;
       color: #00754A;
     }
-    .card, .form-control, .form-check-input{
-      border: 1px solid #000000;
+    
+    .form-control, .form-check-input{
+      border: 1px solid #e0e0e0;
     }
+
     a{
       color: #00754A;
       font-weight: bold;
@@ -40,36 +47,24 @@
     .form-control:focus{ 
      background-color: #B8FFB8;
     }
-    .form-control:focus + label{ 
-      color: #00754A;
-    }
   </style>
 </head>
 
 <body>
-
-  
-  <div class="d-flex justify-content-center mt-5 mx-5">
-    <div class="card col-md-4 px-4 py-4 mt-4 shadow ">
+  <div class="d-flex justify-content-end my-5 mx-lg-5">
+    <div class="card col-lg-4 mt-3 mx-5 py-5 px-4">
       <div class="d-flex justify-content-center mb-3">
       <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
       </div>
       <h1 class="text-center">Log in</h1>
-
-      <form action="home.php" class="needs-validation" novalidate>
+      <form action="home.php">
       <div class="form-floating mb-3">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
         <label for="floatingInput">Email Address</label>
-        <div class="invalid-feedback">
-        Invalid Username.
-      </div>
       </div>
       <div class="form-floating mb-3">
         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
         <label for="floatingPassword">Password</label>
-        <div class="invalid-feedback">
-        Invalid Password.
-      </div>
       </div>
        <div class="mb-2 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">

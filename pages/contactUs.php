@@ -16,7 +16,7 @@
   <div class="container my-5">
     <div class="row justify-content-center mb-4">
       <div class="col-12 text-center">
-        <h1 class="mb-2" style="color: #00754A;">We'd Love To Hear From You!</h1>
+        <h1 class="mb-2">We'd Love To Hear From You!</h1>
         <p class="text-muted">Get in touch with us or visit our location</p>
       </div>
     </div>

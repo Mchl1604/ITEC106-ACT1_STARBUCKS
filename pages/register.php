@@ -9,7 +9,12 @@
   <style>
     body{
       font-family: Helvetica, Arial, sans-serif;
-       background-color: #00754A;
+       background-image: url(../img/bg.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       min-height: 100vh;
+       margin: 0;
     }
 
     h1 {
@@ -18,7 +23,7 @@
       color: #00754A;
     }
     .card, .form-control, .form-check-input{
-      border: 1px solid #000000;
+      border: 1px solid #e0e0e0;
     }
     a{
       color: #00754A;
@@ -50,8 +55,8 @@
 
 
  
-  <div class="d-flex justify-content-center mt-5">
-    <div class="card col-md-4 px-4 py-4 shadow-p">
+  <div class="d-flex justify-content-end mt-5 mx-5">
+    <div class="card col-md-4 px-4 py-4 mx-5">
       <div class="d-flex justify-content-center mb-3">
       <img src="../img/logo.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 40px;">
       </div>

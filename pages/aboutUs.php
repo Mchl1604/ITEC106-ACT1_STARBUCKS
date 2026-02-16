@@ -22,7 +22,7 @@
     </div>
 
     <div class="card shadow-sm p-3 mb-3">
-      <img src="../img/6.jpg" alt="" class="img-fluid mb-3">
+      <img src="../img/6.jpg" alt="First Starbucks Store" class="img-fluid mb-3">
     <h1 class="fw-bold mb-3">Our Heritage</h1>
     <p class="lh-lg">
       Our story begins in 1971 along the cobblestone streets of Seattle’s historic Pike Place Market. It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the world for our customers to take home. Our name was inspired by the classic tale, “Moby-Dick,” evoking the seafaring tradition of the early coffee traders.</p>
