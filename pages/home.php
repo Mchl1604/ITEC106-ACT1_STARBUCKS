@@ -6,25 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <?php include("../includes/cssBootstrap.php"); ?>
-  <style>
-    body {
-      font-family: Helvetica, Arial, sans-serif;
-    }
 
-    .banner {
-      background-color: #32462F;
-      padding: 40px 0;
-
-    }
-  </style>
 </head>
 
-<body>
+<body style="font-family: Helvetica, Arial, sans-serif;">
   <?php include("../includes/header.php"); ?>
-  <div class="col-md-12 banner d-flex justify-content-center align-items-center mb-3">
-    <p class="text-white fw-bold fs-4 m-0">It's a great day for coffee</p>
+
+  <div id="carouselExample" class="carousel slide mb-3" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/maincarousel.jpg" class="d-block w-100" alt="carousel main image starbucks">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel1.jpg" class="d-block w-100" alt="matcha chocolate delight image">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel2.jpg" class="d-block w-100" alt="classic mocha frappe image">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel3.jpg" class="d-block w-100" alt="strawberry cream  dream image">
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
   <div class="container-fluid p-0">
+
 
 
     <div class="row mb-4 g-0">

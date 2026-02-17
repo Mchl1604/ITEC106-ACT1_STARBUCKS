@@ -9,7 +9,7 @@
   
 </head>
 
-<body style="font-family: Helvetica, Arial, sans-serif; background-color: #C1E1C1;">
+<body style="font-family: Helvetica, Arial, sans-serif; background-color: #f5f0ea;">
   <?php include("../includes/header.php") ?>
   <hr class="p-0 m-0">
   <div class=" container-fluid col-md-7 d-flex flex-column justify-content-center mt-4">
@@ -35,14 +35,14 @@
     </p>
     </div>
     <div class="card shadow-sm p-3 mb-3">
-      <img src="../img/7.jpg" alt="" class="img-fluid mb-3">
+      <img src="../img/7.jpg" alt="Pouring hot water for coffee" class="img-fluid mb-3">
       <h1 class="fw-bold mb-3" >Coffee & Craft</h1>
       <p class="lh-lg mb-3">It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe coffee cherries, to the master roasters who coax the best from every bean, and to the barista who serves it with care. We are committed to the highest standards of quality and service, embracing our heritage while innovating to create new experiences to savor.</p>
 
     </div>
 
     <div class="card shadow-sm p-3 mb-3">
-      <img src="../img/8.webp" alt="" class="img-fluid mb-3">
+      <img src="../img/8.webp" alt="Starbucks Employees" class="img-fluid mb-3">
       <h1 class="fw-bold mb-3" >Our Partners</h1>
       <p class="lh-lg mb-3">We like to say that we are not in the coffee business serving people, but in the people business serving coffee. Our employees – who we call partners – are at the heart of the Starbucks experience. We are committed to making our partners proud and investing in their health, well-being and success and to creating a culture of belonging where everyone is welcome.</p>
 

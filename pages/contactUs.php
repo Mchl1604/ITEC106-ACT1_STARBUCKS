@@ -9,7 +9,7 @@
   
 </head>
 
-<body style="font-family: Helvetica, Arial, sans-serif; background-color: #C1E1C1;">
+<body style="font-family: Helvetica, Arial, sans-serif; background-color: #f5f0ea;">
   <?php include("../includes/header.php") ?>
   <hr class="p-0 m-0">
   
