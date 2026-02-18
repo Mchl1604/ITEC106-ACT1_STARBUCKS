@@ -52,9 +52,6 @@
 </head>
 
 <body>
-
-
- 
   <div class="d-flex justify-content-end mt-5 mx-5">
     <div class="card col-md-4 px-4 py-4 mx-5">
       <div class="d-flex justify-content-center mb-3">

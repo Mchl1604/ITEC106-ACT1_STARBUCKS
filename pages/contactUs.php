@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
   <?php include("../includes/cssBootstrap.php"); ?>
-  
+
 </head>
 
 <body style="font-family: Helvetica, Arial, sans-serif; background-color: #f5f0ea;">
   <?php include("../includes/header.php") ?>
   <hr class="p-0 m-0">
-  
+
   <div class="container my-5">
     <div class="row justify-content-center mb-4">
       <div class="col-12 text-center">
@@ -60,9 +60,9 @@
     </div>
   </div>
 
- <?php 
-  include("../includes/footer.php"); 
-  include("../includes/jsBootstrap.php"); 
+  <?php
+  include("../includes/footer.php");
+  include("../includes/jsBootstrap.php");
   ?>
 </body>
 
